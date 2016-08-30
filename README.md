@@ -4,4 +4,11 @@ Build 74series(e.g. 74138) and some combinational logic for FPGA, verilog.
 
 today~~ add decoders38.v (74138) 
 
-Thanks for playing=v=
+Just for exercise~ Happy debugging=v=
+
+
+# reference：
+[verilog encoding specification](http://zhangzhenyuan163.blog.163.com/blog/static/85819389201451053136233/)  
+[7400 series](https://en.wikipedia.org/wiki/7400_series)  
+[List of 7400 series integrated circuits](https://en.wikipedia.org/wiki/List_of_7400_series_integrated_circuits)  
+[List of 4000 series integrated circuits](https://en.wikipedia.org/wiki/List_of_4000_series_integrated_circuits)  

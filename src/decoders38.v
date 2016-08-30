@@ -1,5 +1,19 @@
-// http://www.ti.com/lit/ds/symlink/sn74ls138.pdf
-// https://en.wikibooks.org/wiki/VHDL_for_FPGA_Design/Decoder
+// ************************Declaration*************************************** //
+// File name: decoders38.v                                                    //
+// Author: firedom                                                            //
+// Date: 2016-08-30 22:14                                                     //
+// Version Number: 1.0                                                        //
+// Abstract:                                                                  //
+// dedocder38 for verilog.                                                    //
+//                                                                            //
+// Reference:                                                                 //
+// http://www.ti.com/lit/ds/symlink/sn74ls138.pdf                             //
+// https://en.wikibooks.org/wiki/VHDL_for_FPGA_Design/Decoder                 //
+//                                                                            //
+// Modification history:(including time, version, author and abstract)        //
+// 2016-08-30 22:14 version 1.0                                               //
+// ************************Declaration*************************************** //
+
 module decoders38(in, out, en);
 	input [0:2]in;
 	input [0:2]en;
@@ -19,9 +33,3 @@ module decoders38(in, out, en);
 	nandGate6(out[6], in[2], in[1], ~in[0], andGate),
 	nandGate7(out[7], in[2], in[1], in[0], andGate);
 endmodule
-
-
-module test(out);
-	output [0:7]out;
-	decoders38 www(.in(3'b111), .out(out), .en(3'b100));
-	endmodule
