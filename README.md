@@ -1,11 +1,12 @@
 # combin-for-FPGA
 
-Build 74series(e.g. 74138) and some combinational logic for FPGA, verilog.
+Build 74series(e.g. 74138 and ect.) and some combinational logic for FPGA, verilog.
 
-today~~ add decoders38.v (74138) 
+##suppose list
+decoders38.v (74138) 
+priorityEncoders83.v (74148) dev.board has broken, not unit test.  
 
 Just for exercise~ Happy debugging=v=
-
 
 # reference：
 [verilog encoding specification](http://zhangzhenyuan163.blog.163.com/blog/static/85819389201451053136233/)  

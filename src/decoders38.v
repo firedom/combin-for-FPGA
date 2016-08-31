@@ -3,6 +3,7 @@
 // Author: firedom                                                            //
 // Date: 2016-08-30 22:14                                                     //
 // Version Number: 1.0                                                        //
+//                                                                            //  
 // Abstract:                                                                  //
 // dedocder38 for verilog.                                                    //
 // [0:2]in is 3-port select input.                                            //
@@ -17,6 +18,7 @@
 //                                                                            //
 // Modification history:(including time, version, author and abstract)        //
 // 2016-08-30 22:14 version 1.0                                               //
+// 2016-08-31 10:23 change wire name.                                         //
 // ************************Declaration*************************************** //
 
 module decoders38(in, out, en);
