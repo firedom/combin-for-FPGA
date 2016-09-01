@@ -4,13 +4,12 @@ Build 74series(e.g. 74138 and ect.) and some combinational logic for FPGA, veril
 
 # suppose list
 decoders38.v (74138)  
-priorityEncoders83.v (74148) dev.board has broken, not unit test.  
+priorityEncoders83.v (74148)
 
 Just for exercise~ Happy debugging=v=
 
 
-
-*Overrides default code language. display not right, no coq but verilog.  
+**Overrides default code language. display not right, no coq but verilog**  
 ```
 $ cat .gitattributes
 *.rb linguist-language=verilog

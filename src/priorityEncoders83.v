@@ -18,11 +18,13 @@
 // Modification history:(including time, version, author and abstract)        //
 // 2016-08-31 10:55  version 0.1                                              //
 // 2016-08-31 21:50  version 0.2 dev.board has broken, not unit test.         //
+// 2016-09-01 20:07  version 0.3 modified code line26, 15. 3->2 RTL and       //
+//                   functional simulation pass, timing simulation failed.    //
 // ************************Declaration*************************************** // 
 module priorityEncoders83(in, ei, out, gs, eo);
 	input [0:7]in;
 	input ei;
-	output [0:3]out;
+	output [0:2]out;
 	output gs;
 	output eo;
 
