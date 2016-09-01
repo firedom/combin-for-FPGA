@@ -3,7 +3,7 @@
 Build 74series(e.g. 74138 and ect.) and some combinational logic for FPGA, verilog.
 
 ##suppose list
-decoders38.v (74138) 
+decoders38.v (74138)  
 priorityEncoders83.v (74148) dev.board has broken, not unit test.  
 
 Just for exercise~ Happy debugging=v=
