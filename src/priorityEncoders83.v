@@ -1,14 +1,12 @@
 // ************************Declaration*************************************** //
 // File name: priorityEncoders83.v                                            //
 // Author: firedom                                                            //
-// Date: 2016-08-31 10:55                                                     //
-// Version Number: 0.2                                                        //
 //                                                                            //
 // Abstract:                                                                  //
 // 8 LINE TO 3 LINE PRIORITY ENCODERS for verilog.                            //
 // [0:7]in:  7-port select input.                                             //
 // ei: enable port.                                                           //
-// [0:3]out: 3-port select output.                                            //
+// [0:2]out: 3-port select output.                                            //
 // gs: output port, check work state.                                         //
 // eo: output port, check work state.                                         //
 //                                                                            //
@@ -20,6 +18,7 @@
 // 2016-08-31 21:50  version 0.2 dev.board has broken, not unit test.         //
 // 2016-09-01 20:07  version 0.3 modified code line26, 15. 3->2 RTL and       //
 //                   functional simulation pass, timing simulation failed.    //
+// 2016-09-02 16:14  version 0.4 add wire.                                    //
 // ************************Declaration*************************************** // 
 module priorityEncoders83(in, ei, out, gs, eo);
 	input [0:7]in;
@@ -27,6 +26,7 @@ module priorityEncoders83(in, ei, out, gs, eo);
 	output [0:2]out;
 	output gs;
 	output eo;
+	wire and0out, and1out, and2out, and3out, and4out, and5out, and6out, and7out, and8out, and9out, and10out, and11out;
 
 	nand
 	nandGate0(eo, in[0], in[1], in[2], in[3], in[4], in[5], in[6], in[7], ~ei), // do not use ;

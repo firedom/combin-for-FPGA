@@ -1,8 +1,6 @@
 // ************************Declaration*************************************** //
 // File name: decoders38.v                                                    //
 // Author: firedom                                                            //
-// Date: 2016-08-30 22:14                                                     //
-// Version Number: 1.0                                                        //
 //                                                                            //  
 // Abstract:                                                                  //
 // dedocder38 for verilog.                                                    //
